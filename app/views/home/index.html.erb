@@ -1,5 +1,5 @@
-<% name = "Fulanito" %>
-<h1>Hola <%= name %></h1>
+
+<h1>Hola <%= @name %></h1>
 
 <p>
     <h2> Example with operations </h2>
@@ -8,8 +8,8 @@
 
 <p>
     <h2> Example conditions </h2>
-        <% if name == "Fulanito" %>
-            <h3> My name is <%= name %> </h3>
+        <% if @name == "Fulanito" %>
+            <h3> My name is <%= @name %> </h3>
         <% end %>
 </p>
 
@@ -18,6 +18,14 @@
         <% 10.times do |i| %>
             <p><%= i %></p>
         <% end %>
-</?p>
+</p>
+
+
+<p>
+    <h2> Example iteration array </h2>
+        <% @skills.each do |skill| %>
+            <%= skill %>
+        <% end %>
+</p>
 
 
