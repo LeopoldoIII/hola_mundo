@@ -1,1 +1,23 @@
-<h1>Hola mundo</h1>
+<% name = "Fulanito" %>
+<h1>Hola <%= name %></h1>
+
+<p>
+    <h2> Example with operations </h2>
+        <%= 2 + 2 =%>
+</p>
+
+<p>
+    <h2> Example conditions </h2>
+        <% if name == "Fulanito" %>
+            <h3> My name is <%= name %> </h3>
+        <% end %>
+</p>
+
+<p>
+    <h2> Example iteration </h2>
+        <% 10.times do |i| %>
+            <p><%= i %></p>
+        <% end %>
+</?p>
+
+
