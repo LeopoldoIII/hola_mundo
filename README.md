@@ -25,12 +25,14 @@ Things you may want to cover:
 
 # Debug Configuration VsCode 
 
-https://andyv.me/til/debug-a-ruby-on-rails-server-using-vs-code/
+[source](https://andyv.me/til/debug-a-ruby-on-rails-server-using-vs-code/)
+
+run this on your terminal
 
     gem install ruby-debug-ide
     gem install debase
 
-To retreive ruby-debug-ide path "PATH_rdebug-ide"
+To retrieve ruby-debug-ide path "PATH_rdebug-ide"
 
     which rdebug-ide
     /Users/user/.rvm/gems/ruby-3.0.0/bin/rdebug-ide
