@@ -1,0 +1,7 @@
+<h1>Skills</h1>
+
+<%= form_with url: "/skills/create", data: {turbo: "false"} do |f| %>
+    <%= f.text_field :skills %>
+    <%= f.submit "Send" %>
+
+<% end %>
