@@ -1,8 +1,6 @@
 # README
 
-Just a Basic Ruby on Rails example
-
-* ...
+    gem install rails
 
 # Debug Configuration VsCode 
 
